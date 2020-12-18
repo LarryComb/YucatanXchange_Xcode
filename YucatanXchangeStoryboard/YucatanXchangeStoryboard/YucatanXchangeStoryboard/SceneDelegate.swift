@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         //let contentView = ContentView()//window.rootViewController = UIHostingController(rootView: contentView)
-        let contentView = ContentView()
+        let url = URL(string: "https://reptulum.dhowardlakers.com/")!
+        let contentView = CustomViews(homeUrl: url)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
