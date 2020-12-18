@@ -3,20 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		346CC8AE258CBDB100ADFD2E /* WebArchiver in Frameworks */ = {isa = PBXBuildFile; productRef = 346CC8AD258CBDB100ADFD2E /* WebArchiver */; };
+		346CC8B4258CBEE900ADFD2E /* UIViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CC8B3258CBEE900ADFD2E /* UIViewWrapper.swift */; };
 		468D194D257F138800566347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D194C257F138800566347 /* AppDelegate.swift */; };
 		468D194F257F138800566347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D194E257F138800566347 /* SceneDelegate.swift */; };
 		468D1954257F138800566347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468D1952257F138800566347 /* Main.storyboard */; };
 		468D1956257F138A00566347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468D1955257F138A00566347 /* Assets.xcassets */; };
 		468D1959257F138A00566347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468D1957257F138A00566347 /* LaunchScreen.storyboard */; };
-		468D196B257F15D400566347 /* ContentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D196A257F15D400566347 /* ContentViews.swift */; };
 		468D196F257F15F400566347 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D196E257F15F400566347 /* CustomViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346CC8B3258CBEE900ADFD2E /* UIViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewWrapper.swift; sourceTree = "<group>"; };
 		468D1949257F138800566347 /* YucatanXchangeStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YucatanXchangeStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468D194C257F138800566347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468D194E257F138800566347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,7 +26,6 @@
 		468D1955257F138A00566347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		468D1958257F138A00566347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468D195A257F138A00566347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		468D196A257F15D400566347 /* ContentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViews.swift; sourceTree = "<group>"; };
 		468D196E257F15F400566347 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,17 +34,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346CC8AE258CBDB100ADFD2E /* WebArchiver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		346CC8B0258CBDBE00ADFD2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		468D1940257F138800566347 = {
 			isa = PBXGroup;
 			children = (
 				468D194B257F138800566347 /* YucatanXchangeStoryboard */,
 				468D194A257F138800566347 /* Products */,
+				346CC8B0258CBDBE00ADFD2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +83,7 @@
 		468D1964257F151300566347 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				468D196A257F15D400566347 /* ContentViews.swift */,
+				346CC8B3258CBEE900ADFD2E /* UIViewWrapper.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +112,9 @@
 			dependencies = (
 			);
 			name = YucatanXchangeStoryboard;
+			packageProductDependencies = (
+				346CC8AD258CBDB100ADFD2E /* WebArchiver */,
+			);
 			productName = YucatanXchangeStoryboard;
 			productReference = 468D1949257F138800566347 /* YucatanXchangeStoryboard.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 468D1940257F138800566347;
+			packageReferences = (
+				346CC8AC258CBDB100ADFD2E /* XCRemoteSwiftPackageReference "WebArchiver" */,
+			);
 			productRefGroup = 468D194A257F138800566347 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,10 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346CC8B4258CBEE900ADFD2E /* UIViewWrapper.swift in Sources */,
 				468D194D257F138800566347 /* AppDelegate.swift in Sources */,
 				468D196F257F15F400566347 /* CustomViews.swift in Sources */,
 				468D194F257F138800566347 /* SceneDelegate.swift in Sources */,
-				468D196B257F15D400566347 /* ContentViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +377,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		346CC8AC258CBDB100ADFD2E /* XCRemoteSwiftPackageReference "WebArchiver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ernesto-elsaesser/WebArchiver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		346CC8AD258CBDB100ADFD2E /* WebArchiver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 346CC8AC258CBDB100ADFD2E /* XCRemoteSwiftPackageReference "WebArchiver" */;
+			productName = WebArchiver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 468D1941257F138800566347 /* Project object */;
 }
