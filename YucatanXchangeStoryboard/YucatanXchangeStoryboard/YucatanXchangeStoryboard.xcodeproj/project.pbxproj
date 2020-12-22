@@ -27,6 +27,7 @@
 		468D1958257F138A00566347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		468D195A257F138A00566347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		468D196E257F15F400566347 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		46E8263E2591959B00DFF195 /* YucatanXchangeStoryboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YucatanXchangeStoryboard.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		468D194B257F138800566347 /* YucatanXchangeStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				46E8263E2591959B00DFF195 /* YucatanXchangeStoryboard.entitlements */,
 				468D1965257F153700566347 /* CustomViews */,
 				468D1964257F151300566347 /* Views */,
 				468D194E257F138800566347 /* SceneDelegate.swift */,
@@ -322,14 +324,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YucatanXchangeStoryboard/YucatanXchangeStoryboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 782725GYA8;
+				DEVELOPMENT_TEAM = GYWURP5G4S;
 				INFOPLIST_FILE = YucatanXchangeStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = beyondconfident.com.YucatanXchangeStoryboard;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondconfident.YucatanXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,14 +345,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YucatanXchangeStoryboard/YucatanXchangeStoryboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 782725GYA8;
+				DEVELOPMENT_TEAM = GYWURP5G4S;
 				INFOPLIST_FILE = YucatanXchangeStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = beyondconfident.com.YucatanXchangeStoryboard;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondconfident.YucatanXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
