@@ -5,7 +5,7 @@
 //  Created by LARRY COMBS on 12/22/20.
 //
 
-/*
+
 import SafariServices
 
 class WenderSafariViewController: SFSafariViewController {
@@ -13,4 +13,4 @@ class WenderSafariViewController: SFSafariViewController {
     return false
   }
 }
-*/
+
