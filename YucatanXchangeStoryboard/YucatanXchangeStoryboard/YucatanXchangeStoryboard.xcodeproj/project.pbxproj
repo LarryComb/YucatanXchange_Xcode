@@ -15,9 +15,17 @@
 		468D1956257F138A00566347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468D1955257F138A00566347 /* Assets.xcassets */; };
 		468D1959257F138A00566347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468D1957257F138A00566347 /* LaunchScreen.storyboard */; };
 		468D196F257F15F400566347 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D196E257F15F400566347 /* CustomViews.swift */; };
+		46E826422592531F00DFF195 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E826412592531F00DFF195 /* NewsItem.swift */; };
+		46E826452592539E00DFF195 /* NewsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E826442592539E00DFF195 /* NewsStore.swift */; };
+		46E826492592547B00DFF195 /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E826482592547B00DFF195 /* NewsFeedTableViewController.swift */; };
+		46E8264C259254D000DFF195 /* WenderViewSafariController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8264B259254D000DFF195 /* WenderViewSafariController.swift */; };
+		46E826562592A64A00DFF195 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46E826552592A64A00DFF195 /* GoogleService-Info.plist */; };
+		625594C4EB699E7D8FF295AB /* Pods_YucatanXchangeStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF4A24CF4922CB8D867558A /* Pods_YucatanXchangeStoryboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		056537117D0219B2DA6C3CDB /* Pods-YucatanXchangeStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YucatanXchangeStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		2F6233C7AE5A76C7FF71F672 /* Pods-YucatanXchangeStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YucatanXchangeStoryboard.release.xcconfig"; path = "Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard.release.xcconfig"; sourceTree = "<group>"; };
 		346CC8B3258CBEE900ADFD2E /* UIViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewWrapper.swift; sourceTree = "<group>"; };
 		468D1949257F138800566347 /* YucatanXchangeStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YucatanXchangeStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468D194C257F138800566347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +36,12 @@
 		468D195A257F138A00566347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		468D196E257F15F400566347 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 		46E8263E2591959B00DFF195 /* YucatanXchangeStoryboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YucatanXchangeStoryboard.entitlements; sourceTree = "<group>"; };
+		46E826412592531F00DFF195 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		46E826442592539E00DFF195 /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStore.swift; sourceTree = "<group>"; };
+		46E826482592547B00DFF195 /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
+		46E8264B259254D000DFF195 /* WenderViewSafariController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenderViewSafariController.swift; sourceTree = "<group>"; };
+		46E826552592A64A00DFF195 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDF4A24CF4922CB8D867558A /* Pods_YucatanXchangeStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YucatanXchangeStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				346CC8AE258CBDB100ADFD2E /* WebArchiver in Frameworks */,
+				625594C4EB699E7D8FF295AB /* Pods_YucatanXchangeStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +60,7 @@
 		346CC8B0258CBDBE00ADFD2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CDF4A24CF4922CB8D867558A /* Pods_YucatanXchangeStoryboard.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -55,6 +71,7 @@
 				468D194B257F138800566347 /* YucatanXchangeStoryboard */,
 				468D194A257F138800566347 /* Products */,
 				346CC8B0258CBDBE00ADFD2E /* Frameworks */,
+				75DF2F9DB5FCE0F8B419238D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +94,7 @@
 				468D1952257F138800566347 /* Main.storyboard */,
 				468D1955257F138A00566347 /* Assets.xcassets */,
 				468D1957257F138A00566347 /* LaunchScreen.storyboard */,
+				46E826552592A64A00DFF195 /* GoogleService-Info.plist */,
 				468D195A257F138A00566347 /* Info.plist */,
 			);
 			path = YucatanXchangeStoryboard;
@@ -94,8 +112,21 @@
 			isa = PBXGroup;
 			children = (
 				468D196E257F15F400566347 /* CustomViews.swift */,
+				46E826412592531F00DFF195 /* NewsItem.swift */,
+				46E826442592539E00DFF195 /* NewsStore.swift */,
+				46E826482592547B00DFF195 /* NewsFeedTableViewController.swift */,
+				46E8264B259254D000DFF195 /* WenderViewSafariController.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		75DF2F9DB5FCE0F8B419238D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				056537117D0219B2DA6C3CDB /* Pods-YucatanXchangeStoryboard.debug.xcconfig */,
+				2F6233C7AE5A76C7FF71F672 /* Pods-YucatanXchangeStoryboard.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468D195D257F138A00566347 /* Build configuration list for PBXNativeTarget "YucatanXchangeStoryboard" */;
 			buildPhases = (
+				CFB503AE071DB53CE11B2128 /* [CP] Check Pods Manifest.lock */,
 				468D1945257F138800566347 /* Sources */,
 				468D1946257F138800566347 /* Frameworks */,
 				468D1947257F138800566347 /* Resources */,
+				01207FA117DF4C04695A2140 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				468D1959257F138A00566347 /* LaunchScreen.storyboard in Resources */,
+				46E826562592A64A00DFF195 /* GoogleService-Info.plist in Resources */,
 				468D1956257F138A00566347 /* Assets.xcassets in Resources */,
 				468D1954257F138800566347 /* Main.storyboard in Resources */,
 			);
@@ -169,15 +203,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01207FA117DF4C04695A2140 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YucatanXchangeStoryboard/Pods-YucatanXchangeStoryboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB503AE071DB53CE11B2128 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YucatanXchangeStoryboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		468D1945257F138800566347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				346CC8B4258CBEE900ADFD2E /* UIViewWrapper.swift in Sources */,
+				46E826492592547B00DFF195 /* NewsFeedTableViewController.swift in Sources */,
+				46E8264C259254D000DFF195 /* WenderViewSafariController.swift in Sources */,
 				468D194D257F138800566347 /* AppDelegate.swift in Sources */,
+				46E826452592539E00DFF195 /* NewsStore.swift in Sources */,
 				468D196F257F15F400566347 /* CustomViews.swift in Sources */,
 				468D194F257F138800566347 /* SceneDelegate.swift in Sources */,
+				46E826422592531F00DFF195 /* NewsItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +401,16 @@
 		};
 		468D195E257F138A00566347 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056537117D0219B2DA6C3CDB /* Pods-YucatanXchangeStoryboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = YucatanXchangeStoryboard/YucatanXchangeStoryboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GYWURP5G4S;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(inherited)";
 				INFOPLIST_FILE = YucatanXchangeStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -342,22 +426,28 @@
 		};
 		468D195F257F138A00566347 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6233C7AE5A76C7FF71F672 /* Pods-YucatanXchangeStoryboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = YucatanXchangeStoryboard/YucatanXchangeStoryboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GYWURP5G4S;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(inherited)";
 				INFOPLIST_FILE = YucatanXchangeStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondconfident.YucatanXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};

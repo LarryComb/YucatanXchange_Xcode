@@ -1,0 +1,6 @@
+framework module Pods_YucatanXchangeStoryboard {
+  umbrella header "Pods-YucatanXchangeStoryboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
