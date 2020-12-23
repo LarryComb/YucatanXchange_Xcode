@@ -4,7 +4,7 @@
 //
 //  Created by LARRY COMBS on 12/22/20.
 //
-
+/*
 import Foundation
 
 class NewsStore {
@@ -52,4 +52,4 @@ extension NewsStore {
     return documentsURL.appendingPathComponent("news.dat")
   }
 }
-
+*/
