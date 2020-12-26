@@ -68,7 +68,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           let notification = notificationOption as? [String: AnyObject],
           let aps = notification["aps"] as? [String: AnyObject] {
           // 2
-        //  NewsItem.makeNewsItem(aps)
+           //NewsItem.makeNewsItem(aps)
           
           // 3
             (window?.rootViewController as? UITabBarController)?.selectedIndex = 1

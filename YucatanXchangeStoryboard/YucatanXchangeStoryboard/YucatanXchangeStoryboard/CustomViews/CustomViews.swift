@@ -82,9 +82,10 @@ struct CustomViews: View {
                     UIViewWrapper(view: spinner)
                     Spacer()
                 } else { // if it's not loading, we show a back button and the Save and Load button
-//                   Button(action: back) {
-//                        Image(systemName: "chevron.left")
-//                   }
+
+                    Button(action: back) {
+                        Image(systemName: "tray.fill")
+                   }
                     Spacer()
                     Button("Save", action: archive)
                     Button("Load", action: unarchive)
@@ -99,7 +100,9 @@ struct CustomViews: View {
      * Go back functionality
      */
     func back() {
-        webView.goBack()
+        let url = URL(string: "https://www.google.com")!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = true
     }
     
     /*
@@ -147,3 +150,6 @@ struct CustomViews: View {
 
 
 }
+
+
+
