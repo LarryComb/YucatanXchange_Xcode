@@ -30,6 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         //registerForPushNotifications()
         
+        
+        
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure()
+        
+        
         if #available(iOS 10.0, *) {
           // For iOS 10 display notification (sent via APNS)
           UNUserNotificationCenter.current().delegate = self
@@ -45,9 +51,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         application.registerForRemoteNotifications()
-
+        
+        
+        // message
         Messaging.messaging().delegate = self
         
+        if let token = Messaging.messaging().fcmToken {
+            print("FCM Token: \(token)")
+        }
         
         // Check if launched from notification
         let notificationOption = launchOptions?[.remoteNotification]
@@ -57,15 +68,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           let notification = notificationOption as? [String: AnyObject],
           let aps = notification["aps"] as? [String: AnyObject] {
           // 2
-          NewsItem.makeNewsItem(aps)
+        //  NewsItem.makeNewsItem(aps)
           
           // 3
-          (window?.rootViewController as? UITabBarController)?.selectedIndex = 1
+            (window?.rootViewController as? UITabBarController)?.selectedIndex = 1
         }
-        
-        
-        // Use Firebase library to configure APIs
-        FirebaseApp.configure()
         
         return true
     }
@@ -124,14 +131,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       }
     }*/
     
-   /* func application(
+    func application(
       _ application: UIApplication,
       didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
     ) {
       let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
       let token = tokenParts.joined()
       print("Device Token: \(token)")
-    }*/
+    }
     
     func application(
       _ application: UIApplication,

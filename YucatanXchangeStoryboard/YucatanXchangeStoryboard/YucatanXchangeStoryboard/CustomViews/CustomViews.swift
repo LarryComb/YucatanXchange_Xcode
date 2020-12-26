@@ -11,6 +11,8 @@ import Combine
 import WebKit
 
 struct CustomViews: View {
+    
+    
     /*
      * Just a tool for the loading spinner
      */
@@ -71,6 +73,7 @@ struct CustomViews: View {
     }
     
     var body: some View {
+        
         VStack(spacing: 0) {
             UIViewWrapper(view: webView)
             HStack(spacing: 20) {
@@ -79,9 +82,9 @@ struct CustomViews: View {
                     UIViewWrapper(view: spinner)
                     Spacer()
                 } else { // if it's not loading, we show a back button and the Save and Load button
-//                    Button(action: back) {
+//                   Button(action: back) {
 //                        Image(systemName: "chevron.left")
-//                    }
+//                   }
                     Spacer()
                     Button("Save", action: archive)
                     Button("Load", action: unarchive)

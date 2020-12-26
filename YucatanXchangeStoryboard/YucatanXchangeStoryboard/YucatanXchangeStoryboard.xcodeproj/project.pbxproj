@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08E4243FF75A7AD7B98B93E1 /* Pods_YucatanXchangeStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB356D27A19D459E8A5DC8C4 /* Pods_YucatanXchangeStoryboard.framework */; };
-		346CC8AE258CBDB100ADFD2E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 346CC8AD258CBDB100ADFD2E /* SwiftPackageProductDependency */; };
+		346CC8AE258CBDB100ADFD2E /* WebArchiver in Frameworks */ = {isa = PBXBuildFile; productRef = 346CC8AD258CBDB100ADFD2E /* WebArchiver */; };
 		346CC8B4258CBEE900ADFD2E /* UIViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CC8B3258CBEE900ADFD2E /* UIViewWrapper.swift */; };
 		468D194D257F138800566347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D194C257F138800566347 /* AppDelegate.swift */; };
 		468D194F257F138800566347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D194E257F138800566347 /* SceneDelegate.swift */; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				346CC8AE258CBDB100ADFD2E /* BuildFile in Frameworks */,
+				346CC8AE258CBDB100ADFD2E /* WebArchiver in Frameworks */,
 				08E4243FF75A7AD7B98B93E1 /* Pods_YucatanXchangeStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +148,7 @@
 			);
 			name = YucatanXchangeStoryboard;
 			packageProductDependencies = (
-				346CC8AD258CBDB100ADFD2E /* SwiftPackageProductDependency */,
+				346CC8AD258CBDB100ADFD2E /* WebArchiver */,
 			);
 			productName = YucatanXchangeStoryboard;
 			productReference = 468D1949257F138800566347 /* YucatanXchangeStoryboard.app */;
@@ -178,7 +178,7 @@
 			);
 			mainGroup = 468D1940257F138800566347;
 			packageReferences = (
-				346CC8AC258CBDB100ADFD2E /* RemoteSwiftPackageReference */,
+				346CC8AC258CBDB100ADFD2E /* XCRemoteSwiftPackageReference "WebArchiver" */,
 			);
 			productRefGroup = 468D194A257F138800566347 /* Products */;
 			projectDirPath = "";
@@ -406,6 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = YucatanXchangeStoryboard/YucatanXchangeStoryboard.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GYWURP5G4S;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(inherited)";
@@ -420,6 +421,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondconfident.YucatanXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,6 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = YucatanXchangeStoryboard/YucatanXchangeStoryboard.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GYWURP5G4S;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(inherited)";
@@ -447,6 +450,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondconfident.YucatanXchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USE_HEADERMAP = NO;
@@ -477,7 +481,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		346CC8AC258CBDB100ADFD2E /* RemoteSwiftPackageReference */ = {
+		346CC8AC258CBDB100ADFD2E /* XCRemoteSwiftPackageReference "WebArchiver" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ernesto-elsaesser/WebArchiver";
 			requirement = {
@@ -488,9 +492,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		346CC8AD258CBDB100ADFD2E /* SwiftPackageProductDependency */ = {
+		346CC8AD258CBDB100ADFD2E /* WebArchiver */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 346CC8AC258CBDB100ADFD2E /* RemoteSwiftPackageReference */;
+			package = 346CC8AC258CBDB100ADFD2E /* XCRemoteSwiftPackageReference "WebArchiver" */;
 			productName = WebArchiver;
 		};
 /* End XCSwiftPackageProductDependency section */
