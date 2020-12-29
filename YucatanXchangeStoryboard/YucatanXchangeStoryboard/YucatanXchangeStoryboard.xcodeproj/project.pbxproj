@@ -21,6 +21,7 @@
 		46E826492592547B00DFF195 /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E826482592547B00DFF195 /* NewsFeedTableViewController.swift */; };
 		46E8264C259254D000DFF195 /* WenderViewSafariController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8264B259254D000DFF195 /* WenderViewSafariController.swift */; };
 		46E826562592A64A00DFF195 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46E826552592A64A00DFF195 /* GoogleService-Info.plist */; };
+		46E828BA2597AD0B00DFF195 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E828B92597AD0B00DFF195 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		46E826482592547B00DFF195 /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
 		46E8264B259254D000DFF195 /* WenderViewSafariController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenderViewSafariController.swift; sourceTree = "<group>"; };
 		46E826552592A64A00DFF195 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46E828B92597AD0B00DFF195 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CB356D27A19D459E8A5DC8C4 /* Pods_YucatanXchangeStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YucatanXchangeStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				468D196E257F15F400566347 /* CustomViews.swift */,
+				46E828B92597AD0B00DFF195 /* SecondViewController.swift */,
 				46E826412592531F00DFF195 /* NewsItem.swift */,
 				46E826442592539E00DFF195 /* NewsStore.swift */,
 				46E826482592547B00DFF195 /* NewsFeedTableViewController.swift */,
@@ -253,6 +256,7 @@
 				346CC8B4258CBEE900ADFD2E /* UIViewWrapper.swift in Sources */,
 				46E826492592547B00DFF195 /* NewsFeedTableViewController.swift in Sources */,
 				46E8264C259254D000DFF195 /* WenderViewSafariController.swift in Sources */,
+				46E828BA2597AD0B00DFF195 /* SecondViewController.swift in Sources */,
 				468D194D257F138800566347 /* AppDelegate.swift in Sources */,
 				46E826452592539E00DFF195 /* NewsStore.swift in Sources */,
 				468D196F257F15F400566347 /* CustomViews.swift in Sources */,

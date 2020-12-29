@@ -81,8 +81,7 @@ struct CustomViews: View {
                     Spacer()
                     UIViewWrapper(view: spinner)
                     Spacer()
-                } else { // if it's not loading, we show a back button and the Save and Load button
-
+                } else { // if it's not loading, we show a back button and the Save and Load button`
                     Button(action: back) {
                         Image(systemName: "tray.fill")
                    }
@@ -99,11 +98,17 @@ struct CustomViews: View {
     /*
      * Go back functionality
      */
-    func back() {
-        let url = URL(string: "https://www.google.com")!
-        webView.load(URLRequest(url: url))
-        webView.allowsBackForwardNavigationGestures = true
+    func back() -> UIViewController? {
+        var SecondViewController = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController
+            while let presentedViewController = SecondViewController?.presentedViewController {
+                SecondViewController = presentedViewController
+            }
+            return SecondViewController
     }
+     
+        // let navVC = UINavigationController(rootViewController: rootVC)
+
+
     
     /*
      * Save the website locally function
@@ -147,9 +152,17 @@ struct CustomViews: View {
         }
     }
     
-
-
 }
 
+
+
+class SecondViewController: UIViewController {
+
+    override func viewDidLoad(){
+      super.viewDidLoad()
+        view.backgroundColor = .systemBlue
+      title = "Notifications"
+    }
+}
 
 
